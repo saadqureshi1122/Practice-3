@@ -57,7 +57,7 @@ userSchema.methods.generateAccessToken = function () {
   const payload = {
     userId: this._id,
     email: this.email,
-    userName: this.username,
+    username: this.username,
     fullName: this.fullName,
     // ... other user-related data you want to include in the token
   };
